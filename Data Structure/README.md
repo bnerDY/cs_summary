@@ -67,7 +67,7 @@
 * 对树中的每个结点，只保留它与第一个孩子结点之间的连线，删去它与其它孩子结点之间的连线。
 * 以树的根结点为轴心，将整棵树顺时针转动一定的角度，使之结构层次分明。
 
-![][2]
+![][11]
 
 二叉树转换为树或森林的过程如下：
 
@@ -75,7 +75,7 @@
 * 删去原二叉树中所有的双亲结点与右孩子结点的连线；
 * 整理由（1）、（2）两步所得到的树或森林，使之结构层次分明。
 
-![][3]
+![][12]
 
 参考：[树、森林与二叉树的转换](http://c.biancheng.net/cpp/html/987.html)
 
@@ -173,18 +173,6 @@
 [数据结构之红黑树](http://dongxicheng.org/structure/red-black-tree/)  
 [Wiki：红黑树](https://zh.wikipedia.org/wiki/红黑树)
 
-[1]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_1.png
-[2]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_2.png
-[3]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_3.png
-[4]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_4.png
-[5]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_5.png
-[6]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_6.png
-[7]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_7.png
-[8]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_8.png
-[9]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_9.png
-
-
-
 
 # Hashtable
 
@@ -224,7 +212,7 @@ DEK：Knuth在《编程的艺术 第三卷》的第六章排序和搜索中给�
 
 C 语言位图实现如下：
 
-![][1]
+![][10]
 
 主要程序如下：
 
@@ -255,8 +243,18 @@ C 语言位图实现如下：
 参考：[详解bitmap算法](http://www.wjxfpf.com/2015/10/300404.html)
 
 
-[1]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_1.jpg
-[2]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_2.jpg
-[3]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_3.jpg
+[10]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_1.jpg
+[11]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_2.jpg
+[12]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_3.jpg
+
+[1]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_1.png
+[2]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_2.png
+[3]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_3.png
+[4]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_4.png
+[5]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_5.png
+[6]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_6.png
+[7]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_7.png
+[8]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_8.png
+[9]: http://7xrlu9.com1.z0.glb.clouddn.com/DataStructure_RB_9.png
 
 
