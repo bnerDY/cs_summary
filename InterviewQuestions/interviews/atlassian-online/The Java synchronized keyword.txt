@@ -1,0 +1,4 @@
+The Java synchronized keyword is an essential tool in concurrent programming in Java. Its 
+overall purpose is to only allow one thread at a time into a particular section of code 
+thus allowing us to protect, for example, variables or data from being corrupted by simultaneous 
+modifications from different threads. 
