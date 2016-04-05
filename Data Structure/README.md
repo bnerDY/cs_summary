@@ -1,4 +1,4 @@
-# BigO cheet sheet
+# BigO cheat sheet
 http://bigocheatsheet.com/
 
 # 图
