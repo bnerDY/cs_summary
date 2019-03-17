@@ -11,6 +11,16 @@
   - Redis热点问题怎么解决
   - Hash, rehash怎么实现的
   - 为啥不能做持久化数据存储引擎
+  - Redis的并发竞争问题如何解决了解Redis事务的CAS操作吗
+  - 缓存机器增删如何对系统影响最小，一致性哈希的实现
+  - Redis持久化的几种方式，优缺点是什么，怎么实现的
+  - Redis的缓存失效策略
+  - 缓存穿透的解决办法
+  - redis集群，高可用，原理
+  - mySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据
+  - 用Redis和任意语言实现一段恶意登录保护的代码，限制1小时内每用户Id最多只能登录5次
+  - redis的数据淘汰策略
+
   
 + ## MySQL 
   - 索引(innodb, b+ tree, 为什么用b+树做索引节点，一个节点存了多少数据，怎么规定大小，与磁盘页对应)，联合索引
@@ -48,6 +58,21 @@
   * 多线程中断的原理
   * sleep, wait, notify, notifyAll
   * ThreadLocal, 线程池参数
+  * ThreadLocal用过么，原理是什么，用的时候要注意什么
+  * Synchronized和Lock的区别3、synchronized 的原理，什么是自旋锁，偏向锁，轻量级锁，什么叫可重入锁，什么叫公平锁和非公平锁
+  * concurrenthashmap具体实现及其原理，jdk8下的改版
+  * 用过哪些原子类，他们的参数以及原理是什么
+  * cas是什么，他会产生什么问题（ABA问题的解决，如加入修改次数、版本号）
+  * 如果让你实现一个并发安全的链表，你会怎么做
+  * 简述ConcurrentLinkedQueue和LinkedBlockingQueue的用处和不同之处
+  * 简述AQS的实现原理
+  * countdowlatch和cyclicbarrier的用法，以及相互之间的差别?
+  * concurrent包中使用过哪些类？分别说说使用在什么场景？为什么要使用？
+  * LockSupport工具
+  * Condition接口及其实现原理
+  * Fork/Join框架的理解
+  * jdk8的parallelStream的理解
+  * 分段锁的原理,锁力度减小的思考
 * sync/async IO
 * 垃圾回收算法
 * Java 内存分配策略？多个线程同时请求内存，如何分配？
@@ -62,6 +87,11 @@
 * Exception
 * integer与int区别
 * 抽象类与接口类区别
+* Java 8的内存分代改进
+* JVM垃圾回收机制，何时触发MinorGC等操作
+* jvm中一次完整的GC流程（从ygc到fgc）是怎样的，重点讲讲对象如何晋升到老年代，几种主要的jvm参数等
+
+
  
 # 算法
  * kth number in an array
@@ -188,6 +218,9 @@
 # 消息队列
  * rmq
  * kafka
+
+# 分布式
+ * https://www.jianshu.com/p/7afd5cba67ca 分布式锁
  
 # 其他
  * 项目当中印象深刻的难点，如何解决
